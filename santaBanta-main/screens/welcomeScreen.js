@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text,Modal ,ScrollView, View , TouchableOpacity , TextInput, StyleSheet, FlatList , KeyboardAvoidingView , Alert,Image, DrawerLayoutAndroidBase } from 'react-native';
-import  * as  firebase from "firebase";
+import firebase from "firebase";
 import db from "../config"
 import SantaAnimation from '../components/SantaClaus.js';
 
@@ -16,7 +16,7 @@ export default class welcomeScreen extends React.Component {
           address:"",
           phoneNumber:"",
           confirmPass:"",
-          isModalVisible=false
+          isModalVisible:false
         }
     }
 

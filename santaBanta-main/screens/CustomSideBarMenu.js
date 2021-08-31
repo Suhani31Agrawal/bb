@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Text , View , TouchableOpacity ,FlatList, TextInput, StyleSheet, KeyboardAvoidingView , Alert,Image } from 'react-native';
 import {DrawerItems} from "react-navigation-drawer"
+import db from "../config"
 
 import firebase from 'firebase';
 
